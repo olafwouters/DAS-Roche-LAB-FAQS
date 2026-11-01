@@ -1,0 +1,176 @@
+﻿chapter,chapter_title,topic_id,section,section_title,topic_title,original_pdf_pages
+1,Working with DNA,topic-1-1-1,1.1,Precautions for handling DNA,Precautions for handling DNA,"13, 14"
+1,Working with DNA,topic-1-2-2,1.2,Commonly used formulas,Commonly used formulas,"15, 16, 17, 18"
+1,Working with DNA,topic-1-2-3,1.2,Commonly used formulas,Examples,"19, 20"
+1,Working with DNA,topic-1-3-4,1.3,Isolating and purifying DNA,Isolating and purifying DNA,"21, 22, 23, 24"
+1,Working with DNA,topic-1-3-5,1.3,Isolating and purifying DNA,Perform nucleic acid isolation rapidly and efficiently,25
+1,Working with DNA,topic-1-3-6,1.3,Isolating and purifying DNA,Sizes and weights of DNA from different organism,26
+1,Working with DNA,topic-1-4-7,1.4,Analyzing DNA,Concentration and purity via OD measurement,"27, 28"
+1,Working with DNA,topic-1-4-8,1.4,Analyzing DNA,Fragment Sizes of DNA Molecular Weight Markers,"29, 30"
+1,Working with DNA,topic-1-4-9,1.4,Analyzing DNA,Size estimation of DNA fragments in Agarose MP* gels,31
+1,Working with DNA,topic-1-4-10,1.4,Analyzing DNA,Size estimation of DNA fragments in Acrylamide gels,32
+1,Working with DNA,topic-1-4-11,1.4,Analyzing DNA,Restriction Enzymes: General Information,33
+1,Working with DNA,topic-1-4-12,1.4,Analyzing DNA,Restriction Enzymes: Buffer System,34
+1,Working with DNA,topic-1-4-13,1.4,Analyzing DNA,Restriction Enzymes: Star Activity,35
+1,Working with DNA,topic-1-4-14,1.4,Analyzing DNA,Restriction Enzymes: Reference Materials available,36
+1,Working with DNA,topic-1-4-15,1.4,Analyzing DNA,Restriction Enzymes: Inactivation and removal,37
+1,Working with DNA,topic-1-4-16,1.4,Analyzing DNA,Restriction Enzymes: Characteristics,"38, 39, 40, 41, 42, 43, 44, 45, 46"
+1,Working with DNA,topic-1-4-17,1.4,Analyzing DNA,Restriction Enzymes: Cross index of recognition sequences,"47, 48, 49, 50"
+1,Working with DNA,topic-1-4-18,1.4,Analyzing DNA,Partial Digest,"51, 52"
+1,Working with DNA,topic-1-5-19,1.5,Cloning of DNA,Ligation with T4 DNA Ligase,"53, 54"
+1,Working with DNA,topic-1-5-20,1.5,Cloning of DNA,Dephosphorylation with rAPid Alkaline Phosphatase,"55, 56"
+1,Working with DNA,topic-1-5-21,1.5,Cloning of DNA,Modifying sticky ends to blunt ends: 5´protruding and 3´recessed ends:,57
+1,Working with DNA,topic-1-5-22,1.5,Cloning of DNA,Modifying sticky ends to blunt ends: 3´protruding and 5´recessed ends:,58
+1,Working with DNA,topic-1-5-23,1.5,Cloning of DNA,Klenow* – for partial or complete filling of 3´recessed ends,"59, 60"
+1,Working with DNA,topic-1-5-24,1.5,Cloning of DNA,Mung Bean Nuclease – for removing of 3´and 5´protruding ends,"61, 62"
+1,Working with DNA,topic-1-5-25,1.5,Cloning of DNA,Miscellaneous,"63, 64"
+1,Working with DNA,topic-1-5-26,1.5,Cloning of DNA,Commonly used bacterial strains,"65, 66"
+1,Working with DNA,topic-1-6-27,1.6,Labeling of DNA and Oligonucleotides,General Considerations,"67, 68"
+1,Working with DNA,topic-1-6-28,1.6,Labeling of DNA and Oligonucleotides,Overview of different techniques,"69, 70"
+1,Working with DNA,topic-1-6-29,1.6,Labeling of DNA and Oligonucleotides,DIG Labeling of Nucleic Acids,"71, 72"
+1,Working with DNA,topic-1-6-30,1.6,Labeling of DNA and Oligonucleotides,Random Primed Labeling with Klenow,"73, 74"
+1,Working with DNA,topic-1-6-31,1.6,Labeling of DNA and Oligonucleotides,Nick Translation with DNA Polymerase I and DNAse I,"75, 76"
+1,Working with DNA,topic-1-6-32,1.6,Labeling of DNA and Oligonucleotides,3´End labeling with Terminal Transferase,"77, 78"
+1,Working with DNA,topic-1-6-33,1.6,Labeling of DNA and Oligonucleotides,5´End labeling with Polynucleotide Kinase,"79, 80"
+1,Working with DNA,topic-1-7-34,1.7,Amplification of DNA,Avoiding Contamination,"81, 82"
+1,Working with DNA,topic-1-7-35,1.7,Amplification of DNA,Reaction Components: Template,"83, 84"
+1,Working with DNA,topic-1-7-36,1.7,Amplification of DNA,Reaction Components: Primers,"85, 86"
+1,Working with DNA,topic-1-7-37,1.7,Amplification of DNA,Reaction Components: Oligonucleotides: Commonly used Formulas,"87, 88"
+1,Working with DNA,topic-1-7-38,1.7,Amplification of DNA,Software,89
+1,Working with DNA,topic-1-7-39,1.7,Amplification of DNA,Reaction Components: MgCl₂ concentration,90
+1,Working with DNA,topic-1-7-40,1.7,Amplification of DNA,Reaction Components: dNTP concentration,91
+1,Working with DNA,topic-1-7-41,1.7,Amplification of DNA,Reaction Components: Choice of Polymerase,92
+1,Working with DNA,topic-1-7-42,1.7,Amplification of DNA,Reaction Components: Hot Start Techniques,93
+1,Working with DNA,topic-1-7-43,1.7,Amplification of DNA,Reaction Components: Other factors,94
+1,Working with DNA,topic-1-7-44,1.7,Amplification of DNA,Cycling Profile for standard PCR,"95, 96, 97"
+1,Working with DNA,topic-1-7-45,1.7,Amplification of DNA,Standard Pipetting Scheme,98
+1,Working with DNA,topic-1-7-46,1.7,Amplification of DNA,Standard PCR Temperature Profile,"99, 100"
+1,Working with DNA,topic-1-8-47,1.8,Quantitative Real-Time PCR,Methods,"101, 102"
+1,Working with DNA,topic-1-8-48,1.8,Quantitative Real-Time PCR,Instrument-based Systems,"103, 104"
+1,Working with DNA,topic-1-8-49,1.8,Quantitative Real-Time PCR,Real-Time PCR Assay Formats,"105, 106"
+1,Working with DNA,topic-1-8-50,1.8,Quantitative Real-Time PCR,Sequence-Independent Detection Assays,"107, 108"
+1,Working with DNA,topic-1-8-51,1.8,Quantitative Real-Time PCR,Sequence-Specific Probe Binding Assays,"109, 110, 111, 112, 113, 114, 115, 116"
+1,Working with DNA,topic-1-8-52,1.8,Quantitative Real-Time PCR,Other Assay Formats,"117, 118"
+1,Working with DNA,topic-1-8-53,1.8,Quantitative Real-Time PCR,Principles of Quantification,"119, 120, 121, 122"
+1,Working with DNA,topic-1-8-54,1.8,Quantitative Real-Time PCR,Melting Curve Analysis,"123, 124, 125, 126"
+1,Working with DNA,topic-1-9-55,1.9,References,References,"127, 128"
+2,Working with RNA,topic-2-1-56,2.1,Precautions for handling RNA,Precautions for handling RNA,"130, 131, 132, 133, 134, 135"
+2,Working with RNA,topic-2-2-57,2.2,Commonly used formulas,Commonly used formulas,"136, 137"
+2,Working with RNA,topic-2-2-58,2.2,Commonly used formulas,Examples,"138, 139"
+2,Working with RNA,topic-2-3-59,2.3,Isolating and purifying RNA,Isolating and purifying RNA,"140, 141, 142, 143"
+2,Working with RNA,topic-2-3-60,2.3,Isolating and purifying RNA,RNA content in various cells and tissues,"144, 145"
+2,Working with RNA,topic-2-4-61,2.4,Analyzing RNA,Concentration via OD Measurement,146
+2,Working with RNA,topic-2-4-62,2.4,Analyzing RNA,Purity via OD Measurement,147
+2,Working with RNA,topic-2-4-63,2.4,Analyzing RNA,Size estimation of RNA fragments,"148, 149"
+2,Working with RNA,topic-2-5-64,2.5,RT-PCR,Reaction Components: Template,"150, 151"
+2,Working with RNA,topic-2-5-65,2.5,RT-PCR,Reaction Components: Choice of reverse transcription primers,"152, 153"
+2,Working with RNA,topic-2-5-66,2.5,RT-PCR,Reaction Components: Design of reverse transcription primers,"154, 155"
+2,Working with RNA,topic-2-5-67,2.5,RT-PCR,Reaction Components: Template Design,"156, 157, 158, 159"
+2,Working with RNA,topic-2-5-68,2.5,RT-PCR,Reaction Components: Choice of enzymes,"160, 161"
+2,Working with RNA,topic-2-5-69,2.5,RT-PCR,Procedures,"162, 163"
+2,Working with RNA,topic-2-5-70,2.5,RT-PCR,Reaction Components: Choice of enzyme for One-Step and Two-Step PCR,164
+2,Working with RNA,topic-2-5-71,2.5,RT-PCR,Reaction Components: Choice of enzyme for Two-Step RT-PCR.,165
+2,Working with RNA,topic-2-5-72,2.5,RT-PCR,Reaction Components: Choice of enzyme for One-Step RT-PCR.,"166, 167"
+2,Working with RNA,topic-2-6-73,2.6,Labeling of RNA,Overview of different techniques,168
+2,Working with RNA,topic-2-6-74,2.6,Labeling of RNA,Principle of In Vitro Transcription with DNA dependent RNA Polymerases,169
+2,Working with RNA,topic-2-6-75,2.6,Labeling of RNA,"SP6, T7 and T3 Polymerases","170, 171"
+2,Working with RNA,topic-2-7-76,2.7,References,References,"172, 173"
+3,Working with Proteins,topic-3-1-77,3.1,Precautions for handling Proteins,Precautions for handling Proteins,"175, 176"
+3,Working with Proteins,topic-3-1-78,3.1,Precautions for handling Proteins,Inhibition of protease activity,"177, 178, 181, 182"
+3,Working with Proteins,topic-3-1-79,3.1,Precautions for handling Proteins,Inhibition of phosphatase activity,"179, 180"
+3,Working with Proteins,topic-3-1-80,3.1,Precautions for handling Proteins,Stabilization,"183, 184, 185, 186"
+3,Working with Proteins,topic-3-2-81,3.2,Conversion from Nucleic Acids to Proteins,Information transfer,"187, 188"
+3,Working with Proteins,topic-3-2-82,3.2,Conversion from Nucleic Acids to Proteins,The Genetic Code,"189, 190"
+3,Working with Proteins,topic-3-2-83,3.2,Conversion from Nucleic Acids to Proteins,Characteristics of Amino Acids,"191, 192"
+3,Working with Proteins,topic-3-2-84,3.2,Conversion from Nucleic Acids to Proteins,Codon Usage,"193, 194"
+3,Working with Proteins,topic-3-3-85,3.3,Analyzing Proteins,Separation ranges of proteins in denaturing SDS-PAGE,195
+3,Working with Proteins,topic-3-3-86,3.3,Analyzing Proteins,Sizes of commonly used markers in denaturing SDS-PAGE,196
+3,Working with Proteins,topic-3-3-87,3.3,Analyzing Proteins,Staining of proteins on denaturing SDS-PAGE gels,197
+3,Working with Proteins,topic-3-3-88,3.3,Analyzing Proteins,Staining and detection of proteins on membranes,198
+3,Working with Proteins,topic-3-3-89,3.3,Analyzing Proteins,Buffer exchange via gel filtration,199
+3,Working with Proteins,topic-3-3-90,3.3,Analyzing Proteins,Properties of commonly used detergents: Definitions,"200, 201"
+3,Working with Proteins,topic-3-3-91,3.3,Analyzing Proteins,Characteristics of detergents,202
+3,Working with Proteins,topic-3-3-92,3.3,Analyzing Proteins,Removal of detergents,203
+3,Working with Proteins,topic-3-3-93,3.3,Analyzing Proteins,Ammonium sulfate precipitation,204
+3,Working with Proteins,topic-3-3-94,3.3,Analyzing Proteins,Other precipitation techniques,"205, 206"
+3,Working with Proteins,topic-3-4-95,3.4,Quantification of Proteins,OD Measurement,207
+3,Working with Proteins,topic-3-4-96,3.4,Quantification of Proteins,Assays,"208, 209, 210"
+3,Working with Proteins,topic-3-4-97,3.4,Quantification of Proteins,Concentration limits of interfering reagents for assays,211
+3,Working with Proteins,topic-3-4-98,3.4,Quantification of Proteins,Compatibility of different buffer systems with protein quantification assays,"212, 213, 214"
+3,Working with Proteins,topic-3-5-99,3.5,Purifying Proteins,Characteristics of different expression systems,215
+3,Working with Proteins,topic-3-5-100,3.5,Purifying Proteins,Sources of antibodies,216
+3,Working with Proteins,topic-3-5-101,3.5,Purifying Proteins,Expressing Proteins: Cell-free - Rapid Translation System,"217, 218, 219, 220"
+3,Working with Proteins,topic-3-5-102,3.5,Purifying Proteins,Choices of animals for immunization,"221, 222"
+3,Working with Proteins,topic-3-5-103,3.5,Purifying Proteins,Doses of immunogens for Rabbits,223
+3,Working with Proteins,topic-3-5-104,3.5,Purifying Proteins,Routes of injections for Rabbits,224
+3,Working with Proteins,topic-3-5-105,3.5,Purifying Proteins,"Purifying antibodies using Protein A*, Protein G* and Protein L",225
+3,Working with Proteins,topic-3-5-106,3.5,Purifying Proteins,Immunoprecipitation,"226, 227, 228"
+3,Working with Proteins,topic-3-5-107,3.5,Purifying Proteins,Ion Exchange Chromatography,"229, 230"
+3,Working with Proteins,topic-3-5-108,3.5,Purifying Proteins,Ion Exchange Chromatography: Experimental setup,"231, 232"
+3,Working with Proteins,topic-3-5-109,3.5,Purifying Proteins,Tagging,"233, 234"
+3,Working with Proteins,topic-3-6-110,3.6,References,References,"235, 236"
+4,Working with Cells,topic-4-1-111,4.1,Precautions for handling Cells,Tissue culture reagents,"238, 239, 240, 241"
+4,Working with Cells,topic-4-1-112,4.1,Precautions for handling Cells,Growth areas and yields of cells in culture vessels,242
+4,Working with Cells,topic-4-1-113,4.1,Precautions for handling Cells,Mycoplasma Contamination,"243, 244"
+4,Working with Cells,topic-4-1-114,4.1,Precautions for handling Cells,Detection of Mycoplasma contamination,"245, 246"
+4,Working with Cells,topic-4-2-115,4.2,Basic Information,Typical Properties of Bacterial Cells,247
+4,Working with Cells,topic-4-2-116,4.2,Basic Information,Typical Properties of Plant Cells,248
+4,Working with Cells,topic-4-2-117,4.2,Basic Information,Typical Properties of Animal Cells,249
+4,Working with Cells,topic-4-2-118,4.2,Basic Information,Nucleic Acid and Protein content of a bacterial cell,250
+4,Working with Cells,topic-4-2-119,4.2,Basic Information,Nucleic Acid content in mammalian cells,251
+4,Working with Cells,topic-4-2-120,4.2,Basic Information,Nucleic Acid and Protein content in human blood,"252, 253"
+4,Working with Cells,topic-4-2-121,4.2,Basic Information,Cell Cycle,"254, 255"
+4,Working with Cells,topic-4-2-122,4.2,Basic Information,Arresting Cells,"256, 257"
+4,Working with Cells,topic-4-3-123,4.3,Manipulating Cells,Transfection of mammalian cells,"258, 259, 260"
+4,Working with Cells,topic-4-3-124,4.3,Manipulating Cells,DNA influences on transfection,261
+4,Working with Cells,topic-4-3-125,4.3,Manipulating Cells,Transfection protocol,"262, 263"
+4,Working with Cells,topic-4-3-126,4.3,Manipulating Cells,Time course of transfection,"264, 265"
+4,Working with Cells,topic-4-3-127,4.3,Manipulating Cells,Calcium phosphate-DNA coprecipitation,266
+4,Working with Cells,topic-4-3-128,4.3,Manipulating Cells,Liposomal and non-liposomal Transfection Reagents,267
+4,Working with Cells,topic-4-3-129,4.3,Manipulating Cells,Electroporation,"268, 269, 270"
+4,Working with Cells,topic-4-3-130,4.3,Manipulating Cells,Voltage Profile,271
+4,Working with Cells,topic-4-3-131,4.3,Manipulating Cells,Microinjection,272
+4,Working with Cells,topic-4-3-132,4.3,Manipulating Cells,Use of Selection Markers for Stable Cell Lines,273
+4,Working with Cells,topic-4-4-133,4.4,Analyzing Cells,Apoptosis/Necrosis,"274, 275, 276, 277, 278, 279"
+4,Working with Cells,topic-4-4-134,4.4,Analyzing Cells,Apoptosis Assay Methods,"280, 281"
+4,Working with Cells,topic-4-4-135,4.4,Analyzing Cells,Apoptosis Assay Methods: Selection Guide,"282, 283"
+4,Working with Cells,topic-4-4-136,4.4,Analyzing Cells,Cell Proliferation and Viability,"284, 285"
+4,Working with Cells,topic-4-4-137,4.4,Analyzing Cells,Proliferation Assay Methods: Selection Guide,"286, 287"
+4,Working with Cells,topic-4-4-138,4.4,Analyzing Cells,FACS (Fluorescence activated cell sorting),"288, 289"
+4,Working with Cells,topic-4-4-139,4.4,Analyzing Cells,FACS,"290, 291, 292, 293"
+4,Working with Cells,topic-4-4-140,4.4,Analyzing Cells,Overview: Reporter Gene Assays,"294, 295, 296, 297, 298, 299, 300"
+4,Working with Cells,topic-4-5-141,4.5,References,References,301
+5,Preparing Buffers and Media,topic-5-1-142,5.1,Buffers,Definitions,303
+5,Preparing Buffers and Media,topic-5-1-143,5.1,Buffers,Precautions,"304, 305, 306"
+5,Preparing Buffers and Media,topic-5-1-144,5.1,Buffers,Buffering ranges of commonly used buffers (at 20°C),307
+5,Preparing Buffers and Media,topic-5-1-145,5.1,Buffers,Recipes for stock solutions,"308, 309, 310, 311, 312"
+5,Preparing Buffers and Media,topic-5-1-146,5.1,Buffers,Recipes for buffers,"313, 314"
+5,Preparing Buffers and Media,topic-5-1-147,5.1,Buffers,Recipes for buffers with desired pH,"315, 316, 317, 318, 319"
+5,Preparing Buffers and Media,topic-5-1-148,5.1,Buffers,Electrophoresis of DNA,320
+5,Preparing Buffers and Media,topic-5-1-149,5.1,Buffers,Electrophoresis of RNA,321
+5,Preparing Buffers and Media,topic-5-1-150,5.1,Buffers,DEPC-treatment,322
+5,Preparing Buffers and Media,topic-5-1-151,5.1,Buffers,Staining of Nucleic Acids,"323, 324"
+5,Preparing Buffers and Media,topic-5-1-152,5.1,Buffers,Electrophoresis of Proteins,"325, 326"
+5,Preparing Buffers and Media,topic-5-1-153,5.1,Buffers,Resolving gels for denaturing SDS – PAGE,327
+5,Preparing Buffers and Media,topic-5-1-154,5.1,Buffers,5% stacking gels for denaturing SDS-PAGE,328
+5,Preparing Buffers and Media,topic-5-1-155,5.1,Buffers,Western Blotting,"329, 330"
+5,Preparing Buffers and Media,topic-5-2-156,5.2,Antibiotics,Selection of prokaryotic cells,331
+5,Preparing Buffers and Media,topic-5-2-157,5.2,Antibiotics,Selection of eukaryotic cells,332
+5,Preparing Buffers and Media,topic-5-3-158,5.3,Media for Bacteria,Recipes for 1 liter,"333, 334"
+5,Preparing Buffers and Media,topic-5-3-159,5.3,Media for Bacteria,"Recipes for 1 liter (for 40 plates of 90 mm, 25 ml per plate)","335, 336"
+5,Preparing Buffers and Media,topic-5-4-160,5.4,References,References,"337, 338"
+6,Conversion Tables and Formulas,topic-6-1-161,6.1,Nucleotide ambiguity code,Nucleotide ambiguity code,340
+6,Conversion Tables and Formulas,topic-6-2-162,6.2,Formulas to calculate melting temperature Tm,Formulas to calculate melting temperature Tm,341
+6,Conversion Tables and Formulas,topic-6-3-163,6.3,%GC content of different genomes,%GC content of different genomes,342
+6,Conversion Tables and Formulas,topic-6-4-164,6.4,Metric prefixes,Metric prefixes,343
+6,Conversion Tables and Formulas,topic-6-5-165,6.5,Greek alphabet,Greek alphabet,344
+6,Conversion Tables and Formulas,topic-6-6-166,6.6,Properties of radioisotopes,Properties of radioisotopes,345
+6,Conversion Tables and Formulas,topic-6-7-167,6.7,Temperatures and Pressure,Temperatures and Pressure,346
+6,Conversion Tables and Formulas,topic-6-8-168,6.8,Centrifugal forces,Centrifugal forces,347
+6,Conversion Tables and Formulas,topic-6-9-169,6.9,Periodical System of Elements,Periodical System of Elements,348
+6,Conversion Tables and Formulas,topic-6-10-170,6.10,Hazard Symbols and Risk Phrases,Hazard Symbols and Risk Phrases,349
+6,Conversion Tables and Formulas,topic-6-11-171,6.11,References,References,"350, 351"
+7,"Addresses, Abbreviations and Index",topic-7-1-172,7.1,Selection of useful addresses,Selection of useful addresses,"353, 354, 355, 356"
+7,"Addresses, Abbreviations and Index",topic-7-2-173,7.2,Lab Steno,Lab Steno,"357, 358"
+7,"Addresses, Abbreviations and Index",topic-7-3-174,7.3,Abbreviations,Abbreviations,"359, 360, 361, 362, 363, 364"
+7,"Addresses, Abbreviations and Index",topic-7-4-175,7.4,Alphabetical index,Alphabetical index,"365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380, 381, 382, 383, 384"
