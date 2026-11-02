@@ -1,0 +1,14 @@
+/* Solid colours sampled from the supplied handbook screenshot. */
+.chapter-card[href="#chapter/1"]{--chapter-bg:#408FF6;--chapter-ink:#091b30}
+.chapter-card[href="#chapter/2"]{--chapter-bg:#61D64A;--chapter-ink:#091b30}
+.chapter-card[href="#chapter/3"]{--chapter-bg:#ED6F32;--chapter-ink:#091b30}
+.chapter-card[href="#chapter/4"]{--chapter-bg:#3104F5;--chapter-ink:#ffffff}
+.chapter-card[href="#chapter/5"]{--chapter-bg:#EA375E;--chapter-ink:#091b30}
+.chapter-card[href="#chapter/6"]{--chapter-bg:#F3B643;--chapter-ink:#091b30}
+.chapter-card[href="#chapter/7"]{--chapter-bg:#D9D9D9;--chapter-ink:#091b30}
+body .chapter-grid .chapter-card{background-color:var(--chapter-bg);background-image:none;color:var(--chapter-ink);border-color:rgba(9,27,48,.18);-webkit-backdrop-filter:none;backdrop-filter:none}
+body .chapter-grid .chapter-card h2,body .chapter-grid .chapter-card p,body .chapter-grid .chapter-card .card-bottom{color:var(--chapter-ink)}
+body .chapter-grid .chapter-card .eyebrow{color:var(--chapter-ink);background:rgba(255,255,255,.16);border-color:rgba(255,255,255,.3);box-shadow:none}
+body .chapter-grid .chapter-card .arrow{color:var(--chapter-ink);background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.3);box-shadow:none}
+body .chapter-grid .chapter-card:hover{background-color:var(--chapter-bg);border-color:var(--chapter-ink)}
+body .chapter-grid .chapter-card:focus-visible{outline:3px solid #091b30;outline-offset:4px;box-shadow:0 0 0 4px #ffffff}
