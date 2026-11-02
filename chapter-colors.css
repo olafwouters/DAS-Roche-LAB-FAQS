@@ -1,14 +1,14 @@
-/* Solid colours sampled from the supplied handbook screenshot. */
-.chapter-card[href="#chapter/1"]{--chapter-bg:#408FF6;--chapter-ink:#091b30}
-.chapter-card[href="#chapter/2"]{--chapter-bg:#61D64A;--chapter-ink:#091b30}
-.chapter-card[href="#chapter/3"]{--chapter-bg:#ED6F32;--chapter-ink:#091b30}
-.chapter-card[href="#chapter/4"]{--chapter-bg:#3104F5;--chapter-ink:#ffffff}
-.chapter-card[href="#chapter/5"]{--chapter-bg:#EA375E;--chapter-ink:#091b30}
-.chapter-card[href="#chapter/6"]{--chapter-bg:#F3B643;--chapter-ink:#091b30}
-.chapter-card[href="#chapter/7"]{--chapter-bg:#D9D9D9;--chapter-ink:#091b30}
-body .chapter-grid .chapter-card{background-color:var(--chapter-bg);background-image:none;color:var(--chapter-ink);border-color:rgba(9,27,48,.18);-webkit-backdrop-filter:none;backdrop-filter:none}
+/* Original screenshot hues softened with a white diagonal wash. */
+.chapter-card[href="#chapter/1"]{--chapter-bg:#408FF6}
+.chapter-card[href="#chapter/2"]{--chapter-bg:#61D64A}
+.chapter-card[href="#chapter/3"]{--chapter-bg:#ED6F32}
+.chapter-card[href="#chapter/4"]{--chapter-bg:#3104F5;--chapter-wash:.5}
+.chapter-card[href="#chapter/5"]{--chapter-bg:#EA375E}
+.chapter-card[href="#chapter/6"]{--chapter-bg:#F3B643}
+.chapter-card[href="#chapter/7"]{--chapter-bg:#D9D9D9}
+body .chapter-grid .chapter-card{--chapter-ink:#091b30;background-color:var(--chapter-bg);background-image:linear-gradient(to bottom right,rgba(255,255,255,var(--chapter-wash,.32)) 0%,rgba(255,255,255,.6) 55%,rgba(255,255,255,.88) 100%);color:var(--chapter-ink);border-color:rgba(9,27,48,.12);box-shadow:inset 0 1px 0 rgba(255,255,255,.8),0 12px 34px rgba(15,42,73,.055);-webkit-backdrop-filter:none;backdrop-filter:none}
 body .chapter-grid .chapter-card h2,body .chapter-grid .chapter-card p,body .chapter-grid .chapter-card .card-bottom{color:var(--chapter-ink)}
-body .chapter-grid .chapter-card .eyebrow{color:var(--chapter-ink);background:rgba(255,255,255,.16);border-color:rgba(255,255,255,.3);box-shadow:none}
-body .chapter-grid .chapter-card .arrow{color:var(--chapter-ink);background:rgba(255,255,255,.18);border-color:rgba(255,255,255,.3);box-shadow:none}
-body .chapter-grid .chapter-card:hover{background-color:var(--chapter-bg);border-color:var(--chapter-ink)}
+body .chapter-grid .chapter-card .eyebrow{color:var(--chapter-ink);background:rgba(255,255,255,.3);border-color:rgba(255,255,255,.5);box-shadow:inset 0 1px 0 rgba(255,255,255,.45)}
+body .chapter-grid .chapter-card .arrow{color:var(--chapter-ink);background:rgba(255,255,255,.4);border-color:rgba(255,255,255,.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
+body .chapter-grid .chapter-card:hover{background-color:var(--chapter-bg);border-color:rgba(9,27,48,.3);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 20px 45px rgba(15,42,73,.09)}
 body .chapter-grid .chapter-card:focus-visible{outline:3px solid #091b30;outline-offset:4px;box-shadow:0 0 0 4px #ffffff}
