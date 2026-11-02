@@ -12,6 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   deploy:
+    timeout-minutes: 90
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -21,6 +22,25 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate matching installed-app icons
         run: python3 build_icons.py
+      - name: Install full-document OCR tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-eng
+          python3 -m pip install 'pdfplumber==0.11.6'
+      - name: Restore verified OCR cache
+        uses: actions/cache@v4
+        with:
+          path: .ocr-cache
+          key: ${{ runner.os }}-full-pdf-ocr-${{ hashFiles('handbook.pdf', 'build_library.py') }}
+      - name: OCR every page and build verified clickable index
+        run: python3 build_library.py
+      - name: Test search and complete page/index coverage
+        run: node tests/library.test.cjs
+      - name: Retain coverage audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdf-coverage-audit
+          path: coverage-audit.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
