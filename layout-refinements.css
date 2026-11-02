@@ -3,4 +3,26 @@
 .topbar,.shell{width:var(--app-frame-width);max-width:1440px;margin-left:auto;margin-right:auto}
 .sidebar{top:110px}
 .featured-chapter{display:none}
-@media(max-width:800px){:root{--app-frame-width:calc(100% - 24px)}.sidebar,.dark .sidebar{top:auto;left:12px;width:var(--app-frame-width)}main{padding-bottom:110px}}
+/* Pale navigation surface stays neutral in either page theme. */
+body .sidebar.glass{background-color:#f6f6f6;background-image:none;border:1px solid rgba(255,255,255,.9);box-shadow:inset 0 1px 0 #ffffff,inset 1px 0 0 rgba(255,255,255,.7),0 12px 32px rgba(0,0,0,.065);color:#585858;color-scheme:light;-webkit-backdrop-filter:blur(24px) saturate(110%);backdrop-filter:blur(24px) saturate(110%)}
+body .sidebar .menu-label,body .sidebar .side-chapters .eyebrow{color:#585858}
+body .sidebar .primary-nav{padding:2px;gap:8px}
+body .sidebar .primary-nav a{color:#585858;border-radius:24px}
+body .sidebar .primary-nav a:hover:not(.active){background:rgba(88,88,88,.045);color:#585858}
+body .sidebar .primary-nav a.active{color:#84bd22;font-weight:750;background-color:transparent}
+/* Preserve the existing animated indicator; replace its solid green fill. */
+body .sidebar .nav-indicator,body .sidebar .primary-nav a.active:not(.slider-ready){border-radius:24px;background-color:rgba(255,255,255,.18);background-image:radial-gradient(ellipse at var(--shine-x,22%) 0%,rgba(255,255,255,.85),transparent 65%),linear-gradient(150deg,rgba(255,255,255,.42) 0%,rgba(255,255,255,.06) 48%,rgba(132,189,34,.045) 100%);border:1px solid rgba(255,255,255,.94);box-shadow:inset 0 1px 1px rgba(255,255,255,1),inset 1px 0 1px rgba(255,255,255,.8),inset 0 -1px 1px rgba(132,189,34,.14),0 5px 14px rgba(0,0,0,.075),0 0 0 1px rgba(88,88,88,.045);-webkit-backdrop-filter:blur(12px) saturate(125%);backdrop-filter:blur(12px) saturate(125%);overflow:hidden}
+body .sidebar .nav-indicator::before{content:"";position:absolute;inset:1px;border-radius:inherit;border-top:1px solid rgba(255,255,255,.98);border-left:1px solid rgba(255,255,255,.78);border-right:1px solid rgba(255,255,255,.45);border-bottom:1px solid rgba(132,189,34,.12);pointer-events:none}
+body .sidebar .nav-indicator::after{content:"";position:absolute;left:7%;top:3%;width:76%;height:44%;border-radius:50%;background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,0));transform:rotate(-7deg);pointer-events:none}
+body .sidebar .primary-nav a:focus-visible,body .sidebar .side-chapters a:focus-visible{outline:2px solid #3e6508;outline-offset:3px}
+body .sidebar .side-chapters,body .sidebar .side-note{border-color:rgba(88,88,88,.12)}
+body .sidebar .side-chapters a{color:#585858}
+body .sidebar .side-chapters a:hover{color:#585858}
+body .sidebar .side-chapters a.selected{color:#84bd22;font-weight:750}
+body .sidebar .side-chapters .dot{background:#a1a1a1}
+body .sidebar .side-chapters a.selected .dot{background:#84bd22}
+body .sidebar .side-note,body .sidebar .side-note p,body .sidebar .side-note a{color:#585858}
+body .sidebar .side-note a:hover{color:#3e6508}
+@media(max-width:800px){:root{--app-frame-width:calc(100% - 24px)}.sidebar,.dark .sidebar{top:auto;left:12px;width:var(--app-frame-width)}main{padding-bottom:110px}body .sidebar .primary-nav{padding:0;gap:4px}body .sidebar .primary-nav a,body .sidebar .nav-indicator,body .sidebar .primary-nav a.active:not(.slider-ready){border-radius:18px}}
+@media(prefers-reduced-transparency:reduce){body .sidebar .nav-indicator,body .sidebar .primary-nav a.active:not(.slider-ready){background:#ffffff;-webkit-backdrop-filter:none;backdrop-filter:none}}
+@media(forced-colors:active){body .sidebar .primary-nav a.active{color:HighlightText;background:Highlight;forced-color-adjust:auto}body .sidebar .nav-indicator::before,body .sidebar .nav-indicator::after{display:none}}
