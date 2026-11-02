@@ -1,0 +1,6 @@
+/* Keep the header and content on one shared outer grid. */
+:root{--app-frame-width:min(1440px,calc(100% - 48px))}
+.topbar,.shell{width:var(--app-frame-width);max-width:1440px;margin-left:auto;margin-right:auto}
+.sidebar{top:110px}
+.featured-chapter{display:none}
+@media(max-width:800px){:root{--app-frame-width:calc(100% - 24px)}.sidebar,.dark .sidebar{top:auto;left:12px;width:var(--app-frame-width)}main{padding-bottom:110px}}

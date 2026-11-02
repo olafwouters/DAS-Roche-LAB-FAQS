@@ -2,30 +2,16 @@
   "id": "./",
   "name": "DAS / Roche Lab FAQS",
   "short_name": "DAS Lab FAQS",
-  "description": "Original PDF pages, always. Offline chapter and topic navigation.",
+  "description": "Original PDF pages, always. Browse by chapter and topic.",
   "start_url": "./#chapters",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#faf9fc",
+  "theme_color": "#faf9fc",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+    {"src": "webapp-hex-v2-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "webapp-hex-v2-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "webapp-hex-v2-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+    {"src": "webapp-hex-v2.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}
   ]
 }
