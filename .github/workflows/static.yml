@@ -27,6 +27,8 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y poppler-utils tesseract-ocr tesseract-ocr-eng
           python3 -m pip install 'pdfplumber==0.11.6'
+      - name: Verify and complete chapter page assignments
+        run: python3 build_chapters.py
       - name: Restore verified OCR cache
         uses: actions/cache@v4
         with:
@@ -36,11 +38,13 @@ jobs:
         run: python3 build_library.py
       - name: Test search and complete page/index coverage
         run: node tests/library.test.cjs
-      - name: Retain coverage audit
+      - name: Retain coverage audits
         uses: actions/upload-artifact@v4
         with:
           name: pdf-coverage-audit
-          path: coverage-audit.json
+          path: |
+            coverage-audit.json
+            chapter-coverage-audit.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
