@@ -38,6 +38,8 @@ jobs:
         run: python3 build_library.py
       - name: Test search and complete page/index coverage
         run: node tests/library.test.cjs
+      - name: Extract and verify original clickable contents
+        run: python3 build_contents.py
       - name: Retain coverage audits
         uses: actions/upload-artifact@v4
         with:
@@ -45,6 +47,7 @@ jobs:
           path: |
             coverage-audit.json
             chapter-coverage-audit.json
+            contents-audit.json
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
