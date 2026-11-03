@@ -40,6 +40,19 @@ jobs:
         run: node tests/library.test.cjs
       - name: Extract and verify original clickable contents
         run: python3 build_contents.py
+      - name: Enable Dutch and English interface
+        run: |
+          node --check i18n.js
+          python3 - <<'PY'
+          from pathlib import Path
+          path = Path('index.html')
+          html = path.read_text(encoding='utf-8')
+          if 'src="i18n.js"' not in html:
+              assert '</body>' in html, 'Missing app body'
+              html = html.replace('</body>', '<script src="i18n.js"></script></body>')
+              path.write_text(html, encoding='utf-8')
+          assert html.count('src="i18n.js"') == 1
+          PY
       - name: Retain coverage audits
         uses: actions/upload-artifact@v4
         with:
